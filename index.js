@@ -5,7 +5,7 @@ const core = require('@actions/core');
 const version = process.argv[2]; // Получение версии OpenWRT из аргумента командной строки
 
 const SNAPSHOT_TARGETS_TO_BUILD = ['ath79'];
-const SNAPSHOT_SUBTARGETS_TO_BUILD = ['generic';
+const SNAPSHOT_SUBTARGETS_TO_BUILD = ['generic'];
 
 if (!version) {
   core.setFailed('Version argument is required');
